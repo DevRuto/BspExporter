@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceUtils", "SourceUtils\SourceUtils.csproj", "{61B5F692-903C-4ED7-A23B-F84BEC9D1C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceUtils", "SourceUtils\SourceUtils.csproj", "{61B5F692-903C-4ED7-A23B-F84BEC9D1C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facepunch.Parse", "Facepunch.Parse\Facepunch.Parse.csproj", "{6F9D3D2B-E50B-4EC0-A1B3-7FE4CF269AB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceUtils.WebExport", "SourceUtils.WebExport\SourceUtils.WebExport.csproj", "{3E388604-BF14-483B-B4C7-29C1C93E88A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ziks.WebServer", "Ziks.WebServer\Ziks.WebServer.csproj", "{D509A478-6FF7-4B89-B3B8-FE47CAF51D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK", "OpenTK\OpenTK.csproj", "{2326B142-1173-44BF-8632-D44BF45FD393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{61B5F692-903C-4ED7-A23B-F84BEC9D1C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B5F692-903C-4ED7-A23B-F84BEC9D1C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B5F692-903C-4ED7-A23B-F84BEC9D1C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9D3D2B-E50B-4EC0-A1B3-7FE4CF269AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9D3D2B-E50B-4EC0-A1B3-7FE4CF269AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9D3D2B-E50B-4EC0-A1B3-7FE4CF269AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9D3D2B-E50B-4EC0-A1B3-7FE4CF269AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E388604-BF14-483B-B4C7-29C1C93E88A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E388604-BF14-483B-B4C7-29C1C93E88A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E388604-BF14-483B-B4C7-29C1C93E88A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E388604-BF14-483B-B4C7-29C1C93E88A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D509A478-6FF7-4B89-B3B8-FE47CAF51D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D509A478-6FF7-4B89-B3B8-FE47CAF51D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D509A478-6FF7-4B89-B3B8-FE47CAF51D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D509A478-6FF7-4B89-B3B8-FE47CAF51D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2326B142-1173-44BF-8632-D44BF45FD393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2326B142-1173-44BF-8632-D44BF45FD393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2326B142-1173-44BF-8632-D44BF45FD393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2326B142-1173-44BF-8632-D44BF45FD393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
