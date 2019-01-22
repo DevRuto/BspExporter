@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ziks.WebServer", "Ziks.WebS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK", "OpenTK\OpenTK.csproj", "{2326B142-1173-44BF-8632-D44BF45FD393}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BspExporter", "BspExporter\BspExporter.csproj", "{91525F1C-44CD-4C5A-BB2F-7C6D078DCAE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2326B142-1173-44BF-8632-D44BF45FD393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2326B142-1173-44BF-8632-D44BF45FD393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2326B142-1173-44BF-8632-D44BF45FD393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91525F1C-44CD-4C5A-BB2F-7C6D078DCAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91525F1C-44CD-4C5A-BB2F-7C6D078DCAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91525F1C-44CD-4C5A-BB2F-7C6D078DCAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91525F1C-44CD-4C5A-BB2F-7C6D078DCAE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
